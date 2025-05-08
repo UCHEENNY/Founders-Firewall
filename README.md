@@ -22,7 +22,7 @@ Each lab includes:
 - Objectives
 - Step-by-step actions
 - Tools used
-- Screenshots or outputs
+- Screenshots
 - Lessons learned
 - # 🧪 Lab: DHCP, DNS & Firewall Configuration in a Simulated Network
 
@@ -45,8 +45,8 @@ This lab was designed to reinforce fundamental networking concepts by building a
 **Devices Used:**
 - 1 DHCP/DNS Server
 - Multiple end-user PCs
-- 1 Firewall Router or Layer 3 Switch
-- 1 or more standard switches
+- 1 Firewall Router 
+- 5 standard switches
 - Ethernet cabling throughout
 
 ## 🔧 Configuration Steps
@@ -66,10 +66,9 @@ This lab was designed to reinforce fundamental networking concepts by building a
 - Verified name resolution using `ping hostname`
 
 ### 4. **Firewall Rules**
-- Implemented basic firewall or ACL rules on the router/firewall
+- Implemented basic firewall rules on the router/firewall
 - **Blocked ICMP traffic** (prevented ping between devices)
-- Allowed HTTP/HTTPS and DNS where needed
-
+  
 ---
 
 ## ✅ Validation & Testing
@@ -82,19 +81,26 @@ This lab was designed to reinforce fundamental networking concepts by building a
 | General connectivity      | ✅ Verified  |
 
 ![image](https://github.com/user-attachments/assets/666e94c7-5a13-498d-9518-26bc717fb7cf)
+
+
 ![image](https://github.com/user-attachments/assets/b96a70ae-8f20-446a-976c-52ceecb4059c)
 
+
 Used Packet Tracer's simulation mode and command line (`ping`, `ipconfig`, etc.) to confirm behavior.
+
+
 ![image](https://github.com/user-attachments/assets/87092a47-7e6f-4887-a1f2-96705ca2d374)
+
 
 ## 🧩 Key Learnings
 
-- How DHCP automates IP distribution across a LAN  
-- DNS is essential for human-readable communication  
-- Firewalls/ACLs can effectively manage traffic types (like blocking pings)  
-- Simulation environments are ideal for prototyping real-world network scenarios
+-I learned how DHCP automates IP distribution across a LAN  
+-I understood how DNS is essential for human-readable communication  
+-I learned how Firewalls/ACLs can effectively manage traffic types (like blocking pings)  
+-I previewed how Simulation environments are ideal for prototyping real-world network scenarios
 
-  ![image](https://github.com/user-attachments/assets/33660825-fa2a-4492-9861-2522e283f5dd)
+
+![image](https://github.com/user-attachments/assets/33660825-fa2a-4492-9861-2522e283f5dd)
 
   
 ## 📁 Files
@@ -111,7 +117,7 @@ Used Packet Tracer's simulation mode and command line (`ping`, `ipconfig`, etc.)
 - [ ] Contribute to an open-source security project  
 
 ## 🤝 Contributions  
-Open to feedback, collaborations, and shared learning. If you're also pivoting into cybersecurity, let's connect and support each other.
+I am open to feedback, collaborations, and shared learning. If you're also pivoting into cybersecurity, let's connect and support each other.
 
 ## 📬 Contact  
 www.linkedin.com/in/abiodun-uche    • abioduneniola24@gmail.com • 
